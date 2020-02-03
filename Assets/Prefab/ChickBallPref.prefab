@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3234758392794446650
+--- !u!1 &8796373902498322532
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8179404438417324318}
-  - component: {fileID: 1669526050514403564}
-  - component: {fileID: 1868467166183111702}
-  - component: {fileID: 4610939233929401534}
-  - component: {fileID: 2399921972055384837}
+  - component: {fileID: 6733948399867105478}
+  - component: {fileID: 2947366641864730072}
+  - component: {fileID: -4162242701020925784}
+  - component: {fileID: 5016762014656609334}
+  - component: {fileID: -755887725997355433}
   m_Layer: 0
-  m_Name: CannonBallPref
+  m_Name: ChickBallPref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8179404438417324318
+--- !u!4 &6733948399867105478
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234758392794446650}
+  m_GameObject: {fileID: 8796373902498322532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1669526050514403564
+--- !u!212 &2947366641864730072
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234758392794446650}
+  m_GameObject: {fileID: 8796373902498322532}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,27 +71,27 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -8392249381571434612, guid: 1990b7ae7710b430db7bc6f474a2118a,
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 3102929636586181288, guid: 1990b7ae7710b430db7bc6f474a2118a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.11, y: 1.1103643}
+  m_Size: {x: 1.33, y: 1.4704825}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1868467166183111702
+--- !u!50 &-4162242701020925784
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234758392794446650}
+  m_GameObject: {fileID: 8796373902498322532}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -100,18 +100,18 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 2c64c5abc9d2b4dbd88f085bd793bfa0, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &4610939233929401534
+--- !u!58 &5016762014656609334
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234758392794446650}
+  m_GameObject: {fileID: 8796373902498322532}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -120,17 +120,17 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.55518216
---- !u!114 &2399921972055384837
+  m_Radius: 0.73524123
+--- !u!114 &-755887725997355433
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234758392794446650}
+  m_GameObject: {fileID: 8796373902498322532}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7091049362b84c5391a887eb1b53b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deleteTime: 5
+  deleteTime: 10
